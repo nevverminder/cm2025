@@ -5,7 +5,7 @@ request.setAttribute("year", sdf.format(new java.util.Date()));
 request.setAttribute("tomcatUrl", "https://tomcat.apache.org/");
 request.setAttribute("tomcatDocUrl", "/docs/");
 request.setAttribute("tomcatExamplesUrl", "/examples/");
-String tprice = "0.00012";
+String tprice = "0.00022";
 %>
 {
   "price": <%=tprice%>
